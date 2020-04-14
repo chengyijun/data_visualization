@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板url带参数</title>
+</head>
+<body>
+<a href="{% url 'myapp:test1'  %}?a=abel&b=1234">测试test1</a>
+<a href="{% url 'myapp:test2' 'abc' 666  %}">测试test1</a>
+</body>
+</html>
